@@ -3,8 +3,6 @@
 '''
   Container cpu / memory resource usage statistics for docker or containerd.
 
-  python container_stats.py [memory (default) | memory_used | cpu] [ limits (default 30) ]
-
 '''
 
 import subprocess
