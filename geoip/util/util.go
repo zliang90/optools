@@ -29,16 +29,6 @@ func ListContains[T comparable](items []T, v T) bool {
 	return false
 }
 
-type ifconfigMe struct {
-	IPAddr     string `json:"ip_addr"`
-	RemoteHost string `json:"remote_host,omitempty"`
-	UserAgent  string `json:"user_agent,omitempty"`
-	Port       int    `json:"port,omitempty"`
-	Method     string `json:"method,omitempty"`
-	Encoding   string `json:"encoding,omitempty"`
-	Via        string `json:"via,omitempty"`
-	Forwarded  string `json:"forwarded,omitempty"`
-}
 type externalIP struct {
 	IP string `json:"ip"`
 }
